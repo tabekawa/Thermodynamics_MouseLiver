@@ -1,6 +1,6 @@
 Thermodynamics_MouseLiver
 ====
-Overview
+GLEAM (Gibbs free energy of reaction Landscape Estimation from metabolome Assisted by variance-covariance Matrix) estimates Gibbs free energy change of reaction from metabolomic data with uncertainties and missing values. The code to perform analysis regarding some physiological characteristics affected by Gibbs free energy change of reaction, such as Flux Control Coefficient (FCC) and Enzyme Cost (EC) of the raction, are also provided.
 
 # Requirement
 
@@ -20,15 +20,15 @@ Download the package code to your local path.
 
 ## GLEAM
 
-This is the package code to estimate thermodynamically consistent metabolite concentrations, standard Gibbs free energy of formation, and Gibs free energy change of reaction by GLEAM (Gibbs free energy of reaction Landscape Estimation from metabolome Assisted by variance-covariance Matrix).
+This is the package code to estimate thermodynamically consistent metabolite concentrations, standard Gibbs free energy of formation, and Gibs free energy change of reaction by GLEAM.
 
 ## FCC
 
-This is the package code to calculate Flux Control Coefficient (FCC) within glycolysis gluconeogenesis, and the TCA cycle.
+This is the package code to calculate FCC within glycolysis gluconeogenesis, and the TCA cycle.
 
 ## EC
 
-This is the package code to calculate Enzyme Cost (EC), Enzyme Cost Minimum (ECM), and Metabolite Equilibrium Gap (MEG) for glycolysis gluconeogenesis, and the TCA cycle.
+This is the package code to calculate EC, Enzyme Cost Minimum (ECM), and Metabolite Equilibrium Gap (MEG) for glycolysis gluconeogenesis, and the TCA cycle.
 
 ## Mouse
 

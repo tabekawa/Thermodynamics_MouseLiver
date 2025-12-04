@@ -34,9 +34,13 @@ This is the package code to calculate EC, Enzyme Cost Minimum (ECM), and Metabol
 
 The input data for the analysis performed in Abekawa et al. is in this directory.
 
+## Supplementary data files
+
+The .xlsx files containing the information on kinetic parameter (Michaelis-Menten constant and turnover number) distributions used for FCC calculation and the FCC values generated in Abekawa et al. are in this directory.
+
 # Demo
 
-To perform the analysis in Abekawa et al., execute addpath(genpath('Mouse')) in the Thermodynamics_MouseLiver directory within MATLAB, and run demo_GLEAM_mouse.m, demo_FCC_mouse.m, and demo_EC_mouse.m in the GLEAM, FCC, and EC directory, respectively.
+To perform the analysis in Abekawa et al., execute addpath(genpath('Mouse')) in the Thermodynamics_MouseLiver directory within MATLAB, and run demo_GLEAM_mouse.m in the GLEAM　directory and execute addpath(genpath('GLEAM')) in the Thermodynamics_MouseLiver directory, followed by running demo_FCC_mouse.m and demo_FCC_arbitrary.m in the FCC directory, and demo_EC_mouse.m in the EC directory.
 
 # Contact
 

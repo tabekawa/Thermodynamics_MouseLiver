@@ -1,6 +1,6 @@
 function run_FCC_arbitrary()
 
-load('Wolm_L_paper.mat')
+load('MouseData_after_GLEAM.mat')
 for i =1:2000
     lnc_uni_0h(:,:,i) = lnc_uni_sample(By2000(:,i),Ac,Af,CC,ratio2,lb_metfree,ub_metfree,d,evector_cov,RT,14,[1,38],0);
     lnc_uni_16h(:,:,i) = lnc_uni_sample(By2000(:,i),Ac,Af,CC,ratio2,lb_metfree,ub_metfree,d,evector_cov,RT,14,[1,38],6);
@@ -33,5 +33,3 @@ for i = 1:2000
         end
     end
 end
-
-% lnc_uni_sample　→　( polySampler )　→　gen_kinparam　→　{ sample_kinparam_brenda　→　( polySampler ) }　→　cal_etas　→　calFluxCtrlCoef

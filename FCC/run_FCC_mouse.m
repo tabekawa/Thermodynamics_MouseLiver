@@ -1,6 +1,6 @@
 function run_FCC_mouse()
 
-load('Wolm_L_paper.mat')
+load('MouseData_after_GLEAM.mat')
 for i = 1:2000
     lnKeq = -( ( Af * evector_cov * By2000(size(Ac,2)*14+1:size(Ac,2)*14+size(Af,2),i) ) + ( Af * repmat(RT*log(10^(-3)),size(Af,2),1) ) ) ./ RT;
     [kcat_By(:,:,i,:), Km_By(:,:,i,:)] = gen_kinpararm(rxnnames,Km_ori,lnKeq,kcat_mean,kcat_sd,Km_mean,Km_sd,100);
@@ -24,5 +24,3 @@ for i = 1:2000
 end
 
 end
-
-% gen_kinparam　→　{ sample_kinparam_brenda　→　( polySampler ) }　→　cal_etas　→　calFluxCtrlCoef

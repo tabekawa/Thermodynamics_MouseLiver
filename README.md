@@ -8,7 +8,7 @@ The developmental version of package has been tested on the following systems:
 
 Windows 11
 
-MATLAB R2021b with Optimization Toolbox, Global Optimization Toolbox
+MATLAB R2021b with Optimization Toolbox, Global Optimization Toolbox, and the Volume-and-Sampling package
 
 Gurobi 10.0.3
 
@@ -52,4 +52,5 @@ Shinya Kuroda: [skuroda@bs.s.u-tokyo.ac.jp](skuroda@bs.s.u-tokyo.ac.jp)
 
 # Reference
 Takumi Abekawa, Satoshi Ohno, Akiyoshi Hirayama, Tomoyoshi Soga, & Shinya Kuroda (2025). The Gibbs free energy landscape based on liver metabolome revealed thermodynamic robustness against fasting and obesity, bioRxiv, 2025.12.04.692290
+
 [doi](https://www.biorxiv.org/content/10.64898/2025.12.04.692290v1)

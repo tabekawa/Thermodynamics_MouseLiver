@@ -40,7 +40,7 @@ The .xlsx files containing the information on kinetic parameter (Michaelis-Mente
 
 # Demo
 
-To perform the analysis in Abekawa et al., execute addpath(genpath('Mouse')) in the Thermodynamics_MouseLiver directory within MATLAB, and run demo_GLEAM_mouse.m in the GLEAM　directory. After performing demo_GLEAM_mouse.m, execute addpath(genpath('GLEAM')) in the Thermodynamics_MouseLiver directory, followed by running demo_FCC_mouse.m and demo_FCC_arbitrary.m in the FCC directory, and demo_EC_mouse.m in the EC directory.
+To perform the analysis in Abekawa et al., execute addpath(genpath('Mouse')) in the Thermodynamics_MouseLiver directory within MATLAB, and run demo_GLEAM_mouse.m in the GLEAM　directory. After performing demo_GLEAM_mouse.m, execute addpath(genpath('GLEAM')) in the Thermodynamics_MouseLiver directory, followed by running demo_FCC_mouse.m and demo_FCC_arbitrary.m in the FCC directory, and demo_EC_mouse.m in the EC directory. Make sure the Volume-and-Sampling package is added to your path when performing the analysis in the FCC directory.
 
 # Contact
 

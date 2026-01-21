@@ -32,7 +32,7 @@ This is the package code to calculate EC, Enzyme Cost Minimum (ECM), and Metabol
 
 ## Mouse
 
-The input data for the analysis performed in Abekawa et al. is in this directory.
+The input .mat file for the analysis performed in Abekawa et al. is in this directory.
 
 ## Supplementary data files
 

@@ -51,6 +51,5 @@ Satoshi Ohno: [s-ohno.dsc@tmd.ac.jp](s-ohno.dsc@tmd.ac.jp)
 Shinya Kuroda: [skuroda@bs.s.u-tokyo.ac.jp](skuroda@bs.s.u-tokyo.ac.jp)
 
 # Reference
-[1]User Name, 'Paper Titile' Conference Name pp.xx 20XX
-
-[test](https://github.com/test)
+Takumi Abekawa, Satoshi Ohno, Akiyoshi Hirayama, Tomoyoshi Soga, & Shinya Kuroda (2025). The Gibbs free energy landscape based on liver metabolome revealed thermodynamic robustness against fasting and obesity, bioRxiv, 2025.12.04.692290
+[doi](https://www.biorxiv.org/content/10.64898/2025.12.04.692290v1)

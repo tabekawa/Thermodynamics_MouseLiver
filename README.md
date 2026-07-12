@@ -118,12 +118,16 @@ The key constraints and assumptions for mouse liver during fasting, which is use
 
 1. **Thermodynamic feasibility**  
    Each reaction is constrained to have a negative ΔrG' value in its assigned direction, *i.e.*, d ⋅ ∆rG' < 0.
+   
 2. **Direction of reversible reactions**  
    Reversible reactions are constrained to proceed in glycolytic and gluconeogenetic direction at *ad libitum* feeding and after 16-hour fasting, respectively.
+   
 3. **Concentration bounds**  
    The default metabolite-concentration range is 10⁻⁷–10⁻² M.
-4. **Steady state**  
-   Glucose metabolism is in a pseudo-steady state, and thereby the mass balance of metabolites is maintained at all timepoints.
+   
+4. **Mass balance**  
+   Glucose metabolism is in a pseudo-steady state, and thereby the mass balance of the metabolites is maintained at all timepoints.
+   
 5. **Physicochemical conditions**  
    The conditions for mouse liver are as follows: pH = 7.2, pMg = 3.0, ionic strength = 0.15 M, and temperature = 310.15 K.
 
@@ -136,6 +140,6 @@ Satoshi Ohno: [s-ohno@tara.tsukuba.ac.jp](s-ohno@tara.tsukuba.ac.jp)
 Shinya Kuroda: [skuroda@bs.s.u-tokyo.ac.jp](skuroda@bs.s.u-tokyo.ac.jp)
 
 # Reference
-Takumi Abekawa, Satoshi Ohno, Akiyoshi Hirayama, Tomoyoshi Soga, & Shinya Kuroda (2025). The Gibbs free energy landscape based on liver metabolome revealed thermodynamic robustness against fasting and obesity, bioRxiv, 2025.12.04.692290
+Takumi Abekawa, Satoshi Ohno, Akiyoshi Hirayama, Tomoyoshi Soga, & Shinya Kuroda (2026). The Gibbs free energy landscape based on liver metabolome revealed thermodynamic robustness against fasting and obesity, bioRxiv, 2025.12.04.692290
 
-[https://www.biorxiv.org/content/10.64898/2025.12.04.692290v1](https://www.biorxiv.org/content/10.64898/2025.12.04.692290v1)
+[https://www.biorxiv.org/content/10.64898/2025.12.04.692290v2](https://www.biorxiv.org/content/10.64898/2025.12.04.692290v2)

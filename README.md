@@ -116,15 +116,15 @@ On successful completion, the analysis generates a flile named MouseData_EC.mat,
 
 The key constraints and assumptions for mouse liver during fasting, which is used in the analyses implemented in this repository, are summarized below.
 
-1. **Thermodynamic feasibility**
+1. **Thermodynamic feasibility**  
    Each reaction is constrained to have a negative ΔrG' value in its assigned direction, *i.e.*, d ⋅ ∆rG' < 0.
-2. **Direction of reversible reactions**
+2. **Direction of reversible reactions**  
    Reversible reactions are constrained to proceed in glycolytic and gluconeogenetic direction at *ad libitum* feeding and after 16-hour fasting, respectively.
-3. **Concentration bounds**
+3. **Concentration bounds**  
    The default metabolite-concentration range is 10⁻⁷–10⁻² M.
-4. **Steady state**
+4. **Steady state**  
    Glucose metabolism is in a pseudo-steady state, and thereby the mass balance of metabolites is maintained at all timepoints.
-5. **Physicochemical conditions**
+5. **Physicochemical conditions**  
    The conditions for mouse liver are as follows: pH = 7.2, pMg = 3.0, ionic strength = 0.15 M, and temperature = 310.15 K.
 
 # Contact

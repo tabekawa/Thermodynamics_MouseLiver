@@ -73,30 +73,44 @@ The steps for the execution are as follows:
 On successful completion, the analysis generates a flile named MouseData_FCC.mat and Arbitrary_FCC.mat for mouse liver and arbitrary ΔrG' landscapes, respectively, including following variables:
 - By_FCC_glyc_l: FCC values within glycolysis for each sample
 - By_FCC_glucon_l: FCC values within gluconeogenesis for each sample
-- By_FCC_TCA0_l: FCC values within the TCA cycle at *ad libitum* feeding and after 16-hour fasting for each sample
+- By_FCC_TCA0_l: FCC values within the TCA cycle at *ad libitum* feeding for each sample
 - By_FCC_TCA16_l: FCC values within the TCA cycle after 16-hour fasting for each sample
-- By_rev_glyc_l: ηrev values within glycolysis for each sample
-- By_rev_glucon_l: ηrev values within gluconeogenesis for each sample
-- By_rev_TCA0_l: ηrev values within the TCA cycle at *ad libitum* feeding and after 16-hour fasting for each sample
-- By_rev_TCA16_l: ηrev values within the TCA cycle after 16-hour fasting for each sample
+- By_rev_glyc_fcc_l: ηrev values within glycolysis for each sample
+- By_rev_glucon_fcc_l: ηrev values within gluconeogenesis for each sample
+- By_rev_TCA0_fcc_l: ηrev values within the TCA cycle at *ad libitum* feeding for each sample
+- By_rev_TCA16_fcc_l: ηrev values within the TCA cycle after 16-hour fasting for each sample
 
 ### Enzyme cost analysis
 
-This analysis calculates Enzyme cost, 1/ηrev, a thermodynamic effect on Enzyme cost, 1/ηsat,s, an effect of substrate saturation on Enzyme cost, and Metabolite equilibrium gap (MEG) within glycolysos, gluconeogenesis, and the TCA cycle in mouse liver or Enzyme cost minimum (EMC) at *ad libitum* feeding and after 16-hour fasting. Root Mean Squared Error (RMSE) and Typical fold error of predicted metabolite concentrations by ECM are also calculated.
+This analysis calculates Enzyme cost, Enzyme cost minimum (EMC), ηrev, a thermodynamic effect on the reaction rate, ηsat,s, an effect of substrate saturation on the reaction rate, and Metabolite equilibrium gap (MEG) within glycolysos, gluconeogenesis, and the TCA cycle in mouse liver or EMC at *ad libitum* feeding and after 16-hour fasting. Root mean squared error (RMSE) and Typical fold error of predicted metabolite concentrations by ECM are also calculated.
 
 The steps for the execution are as follows:
 - run addpath(genpath('GLEAM')) in the Thermodynamics_MouseLiver directory 
 - run demo_EC_mouse.m in the EC directory
 
-On successful completion, the analysis generates a flile named MouseData_CC.mat, including following variables:
-- By_FCC_glyc_l: FCC values within glycolysis
-- By_FCC_glucon_l: FCC values within gluconeogenesis
-- By_FCC_TCA0_l: FCC values within the TCA cycle at *ad libitum* feeding and after 16-hour fasting
-- By_FCC_TCA16_l: FCC values within the TCA cycle after 16-hour fasting
-- By_rev_glyc_l: ηrev values within glycolysis
-- By_rev_glucon_l: ηrev values within gluconeogenesis
-- By_rev_TCA0_l: ηrev values within the TCA cycle at *ad libitum* feeding and after 16-hour fasting
-- By_rev_TCA16_l: ηrev values within the TCA cycle after 16-hour fasting
+On successful completion, the analysis generates a flile named MouseData_EC.mat, including following variables:
+- x_ec_glyc_l: metabolite concentrations in ECM within glycolysis
+- x_ec_glucon_l: metabolite concentrations in ECM  within gluconeogenesis
+- x_ec_TCA0_l: metabolite concentrations in ECM within the TCA cycle at *ad libitum* feeding
+- x_ec_TCA16_l: metabolite concentrations in ECM the TCA cycle after 16-hour fasting
+- E_glyc_l: Enzyme cost of individual reaction within glycolysis in mouse liver and ECM
+- E_glucon_l: Enzyme cost of individual reaction within gluconeogenesis in mouse liver and ECM
+- E_TCA0_l: Enzyme cost of individual reaction within the TCA cycle at *ad libitum* feeding in mouse liver and ECM
+- E_TCA16_l: Enzyme cost of individual reaction within the TCA cycle after 16-hour fasting in mouse liver and ECM
+- EC_tot_glyc_l: total Enzyme cost of glycolysis in mouse liver and ECM
+- EC_tot_glucon_l: total Enzyme cost of gluconeogenesis in mouse liver and ECM
+- EC_tot_TCA0_l: total Enzyme cost of the TCA cycle at *ad libitum* feeding in mouse liver and ECM
+- EC_tot_TCA16_l: total Enzyme cost of the TCA cycle after 16-hour fasting in mouse liver and ECM
+- rev_glyc_ec_l: ηrev values within glycolysis in mouse liver and ECM
+- rev_glucon_ec_l: ηrev values within gluconeogenesis in mouse liver and ECM
+- rev_TCA0_ec_l: ηrev values within the TCA cycle at *ad libitum* feeding in mouse liver and ECM
+- rev_TCA16_ec_l: ηrev values within the TCA cycle after 16-hour fasting in mouse liver and ECM
+- sat_s_glyc_ec_l: ηsat,s values within glycolysis in mouse liver and ECM
+- sat_s_glucon_ec_l: ηsat,s values within gluconeogenesis in mouse liver and ECM
+- sat_s_TCA0_ec_l: ηsat,s values within the TCA cycle at *ad libitum* feeding in mouse liver and ECM
+- sat_s_TCA16_ec_l: ηsat,s values within the TCA cycle after 16-hour fasting in mouse liver and ECM
+- meg_glgl: MEG of glycolysis and gluconeogenesis in mouse liver and ECM
+- meg_TCA: MEG of the TCA cycle at *ad libitum* feeding and after 16-hour fasting in mouse liver and ECM
 
 # Contact
 

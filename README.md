@@ -1,6 +1,6 @@
 Thermodynamics_MouseLiver
 ====
-This repository contains the source code and input data used in Abekawa et al. to estimate the Gibbs free energy of reaction (ΔrG') in mouse liver during fasting by GLEAM (Gibbs free energy of reaction Landscape Estimation from metabolome Assisted by variance-covariance Matrix). GLEAM estimates thermodynamically consistent metabolite concentrations, standard transformed Gibbs energies of formation (ΔfG'°), and subsequent ΔrG′ values from metabolome and Δ_f G^o '° data with uncertainties and missing values. The repository also provides the the code to reproduce downstream analyses performed in Abekawa et al., regarding flux control coefficient (FCC) and Enzyme cost (EC).
+This repository contains the source code and input data used in Abekawa *et al*. to estimate the Gibbs free energy of reaction (ΔrG') in mouse liver during fasting by GLEAM (Gibbs free energy of reaction Landscape Estimation from metabolome Assisted by variance-covariance Matrix). GLEAM estimates thermodynamically consistent metabolite concentrations, standard transformed Gibbs energies of formation (ΔfG'°), and subsequent ΔrG′ values from metabolome and Δ_f G^o '° data with uncertainties and missing values. The repository also provides the the code to reproduce downstream analyses performed in Abekawa *et al*., regarding flux control coefficient (FCC) and Enzyme cost (EC).
 
 # Requirement
 
@@ -32,11 +32,11 @@ This is the package code to calculate EC, Enzyme Cost Minimum (ECM), and Metabol
 
 ## Mouse
 
-The input .mat file for the analysis performed in Abekawa et al. is in this directory.
+The input .mat file for the analysis performed in Abekawa *et al*. is in this directory.
 
 ## Supplementary data files
 
-The .xlsx files containing the information on kinetic parameter (Michaelis-Menten constant and turnover number) distributions used for FCC calculation and the FCC values generated in Abekawa et al. are in this directory.
+The .xlsx files containing the information on kinetic parameter (Michaelis-Menten constant and turnover number) distributions used for FCC calculation and the FCC values generated in Abekawa *et al*. are in this directory.
 
 # Guidance on running code
 

@@ -112,7 +112,7 @@ On successful completion, the analysis generates a flile named MouseData_EC.mat,
 - meg_glgl: MEG of glycolysis and gluconeogenesis in mouse liver and ECM
 - meg_TCA: MEG of the TCA cycle at *ad libitum* feeding and after 16-hour fasting in mouse liver and ECM
 
-# Constraints and assumptions of the alayses
+# Constraints and assumptions of the analyses
 
 The key constraints and assumptions for mouse liver during fasting, which is used in the analyses implemented in this repository, are summarized below.
 

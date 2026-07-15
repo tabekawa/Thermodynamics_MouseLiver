@@ -38,7 +38,7 @@ The input .mat file for the analysis performed in Abekawa *et al*. is in this di
 
 The .xlsx files containing the information on kinetic parameter (Michaelis-Menten constant and turnover number) distributions used for FCC calculation and the FCC values generated in Abekawa *et al*. are in this directory.
 
-# Guidance on running code
+# Guidance for running code
 
 ## Estimation of ΔrG′ by GLEAM
 
